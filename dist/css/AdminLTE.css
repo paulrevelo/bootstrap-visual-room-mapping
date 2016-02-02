@@ -211,6 +211,7 @@ a:focus {
 .main-header #navbar-search-input.form-control {
   background: rgba(255, 255, 255, 0.2);
   border-color: transparent;
+  width:700px;
 }
 .main-header #navbar-search-input.form-control:focus,
 .main-header #navbar-search-input.form-control:active {
