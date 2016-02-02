@@ -1,15 +1,12 @@
 {
   "name": "Schedular",
-  "homepage": "http://almsaeedstudio.com",
+  "homepage": "none",
   "authors": [
     "Paul Emmanuel S. Revelo <revelopaul@rocketmail.com>"
   ],
-  "description": "Admin dashboard and control panel template",
+  "description": "Room visual mapping using Google Maps.",
   "main": [
-    "index2.html",
-    "dist/css/AdminLTE.css",
-    "dist/js/app.js",
-    "build/less/AdminLTE.less"
+    "index.html"
   ],
   "keywords": [
     "css",
@@ -28,6 +25,13 @@
     "node_modules",
     "bower_components",
     "composer.json",
-    "documentation"
-  ]
+    "documentation",
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "private": true
 }
