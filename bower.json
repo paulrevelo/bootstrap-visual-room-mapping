@@ -1,0 +1,31 @@
+{
+  "name": "Schedular",
+  "homepage": "https://github.com/paulrevelo/mdbootstrap-visual-room-mapping",
+  "description": "Visual room mapping using Bootstrap, Material Design and Google Maps",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "google",
+    "maps",
+    "bootstrap",
+    "material-design",
+    "javascript"
+  ],
+  "authors": [
+    "Paul Emmanuel S. Revelo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
