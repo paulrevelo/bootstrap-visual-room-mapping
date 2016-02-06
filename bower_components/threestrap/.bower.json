@@ -1,0 +1,39 @@
+{
+  "name": "threestrap",
+  "version": "0.0.11",
+  "homepage": "https://github.com/unconed/threestrap",
+  "description": "Minimal Three.js Bootstrapper",
+  "main": "build/threestrap.js",
+  "keywords": [
+    "three",
+    "threejs",
+    "three.js",
+    "3d",
+    "webgl"
+  ],
+  "author": "Steven Wittens",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.md",
+    "gulpfile.js",
+    "*.conf.js",
+    "bower.json",
+    "package.json",
+    "docs",
+    "examples",
+    "src",
+    "test",
+    "vendor"
+  ],
+  "_release": "0.0.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.11",
+    "commit": "339fe77ff0b5b675a702c2c60644a0b7eac5b1c0"
+  },
+  "_source": "git://github.com/unconed/threestrap.git",
+  "_target": "^0.0.11",
+  "_originalSource": "threestrap",
+  "_direct": true
+}

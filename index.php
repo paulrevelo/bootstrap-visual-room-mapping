@@ -16,31 +16,31 @@
 
 </head>
 
-<body class="hold-transition skin-blue layout-top-nav">
-<div class="wrapper">
+<body class="hold-transition skin-green layout-top-nav">
+  <div class="wrapper">
 
-  <?php 
-        $current_page = "home";
-        include("header.php"); 
-  ?>
+    <?php 
+          $current_page = "home";
+          include("header.php"); 
+    ?>
 
-  <!-- Full Width Column -->
-  <div class="content-wrapper">
-    <div id="map-canvas"></div>
+    <!-- Full Width Column -->
+    <div class="content-wrapper">
+      <div id="map-canvas"></div>
+    </div>
+    <!-- /.content-wrapper -->
   </div>
-  <!-- /.content-wrapper -->
-</div>
-<!-- ./wrapper -->
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- ./wrapper -->
+  
+  <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+  <script src="plugins/fastclick/fastclick.js"></script>
 
-<script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<script src="plugins/fastclick/fastclick.js"></script>
-
-<script src="dist/js/app.min.js"></script>
-<script src="dist/js/demo.js"></script>
-<script src="dist/js/scripts.js"></script>
+  <script src="dist/js/app.min.js"></script>
+  <script src="dist/js/demo.js"></script>
+  <script src="dist/js/scripts.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 
 </body>
 </html>

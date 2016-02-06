@@ -35,6 +35,8 @@
   ],
   "private": true,
   "dependencies": {
-    "font-awesome": "^4.5.0"
+    "font-awesome": "^4.5.0",
+    "three.js": "threejs#*",
+    "threestrap": "^0.0.11"
   }
 }
